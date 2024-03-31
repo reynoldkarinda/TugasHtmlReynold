@@ -1,0 +1,45 @@
+body{
+    background-image: url("assets/images/bgproyek.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    color:lightcyan;
+    font-family: "press start 2p";
+    padding: 5px;
+}
+p{
+    color: lightcyan;
+    font-family: "press start 2p";
+    font-size: 25px;
+    font-weight: bold;
+    font-style: normal ;
+    border-style:outset;
+    border-width: 5px;
+    border-color: lightgreen;
+    border-radius: 10px;
+    padding: 5px;
+}
+.navbar ul{
+    list-style-type: none;
+   background-color: lightslategray;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar li{
+    float: left;
+}
+.navbar a:hover{
+    background-color: black;
+}
