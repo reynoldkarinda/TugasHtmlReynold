@@ -1,11 +1,14 @@
-
-<header>
-    <h1>
-        This is my Gallery
-    </h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="stylesheet" href="Gallery.css" >
+    <link rel="stylesheet" href="style.css" >
+    
+    
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-</header>
+</head>
 <body>
     <nav class="navbar">
         <ul>
@@ -16,39 +19,30 @@
             
         </ul>
     </nav>
-    <div class="gallery">
-        <a target="_blank" href="assets/images/mee.jpg">
-        <img src="assets/images/mee.jpg" alt="Me">
-    </a>
-    <div class="description">Me</div>
+    <h1>
+        This is my Gallery
+    </h1>
+    <div class="container">
+        <div class="gallery-container" id="imageContainer">
+           
+            <img id="displayedImage" src="" alt="Image">
+        </div>
+       
     </div>
-    <div class="gallery">
-        <a target="_blank" href="assets/images/kmk.jpg">
-        <img src="assets/images/kmk.jpg" alt="KMK">
-    </a>
-    <div class="description">KMK</div>
-    </div>
-    <div class="gallery">
-        <a target="_blank" href="assets/images/hmee.jpg">
-        <img src="assets/images/hmee.jpg" alt="HME">
-    </a>
-    <div class="description">HME</div>
-    </div>
-    <div class="gallery">
-        <a target="_blank" href="assets/images/omk.jpeg">
-        <img src="assets/images/omk.jpeg" alt="OMK">
-    </a>
-    <div class="description">OMK</div>
-    <div class="gallery">
-        <a target="_blank" href="assets/images/ngamen.jpg">
-        <img src="assets/images/ngamen.jpg" alt="KMK">
-    </a>
-    <div class="description">KMK</div>
-    <div class="gallery">
-        <a target="_blank" href="assets/images/photo.jpeg">
-        <img src="assets/images/photo.jpeg" alt="Me">
-    </a>
-    <div class="description">Me</div>
-    
-    
+    <div class="centered-div" >
+    <a href="#" class="buttonClass" id="previousImageButton" style="text-align: center;">Gambar Sebelumnya</a>
+    <a href="#" class="buttonClass" id="nextImageButton" style="text-align: center;">Gambar Selanjutnya</a>
+   
+</div>
+
+
+
+
+
+<script src="gallery.js"></script>
+
+
+   
+   
 </body>
+</html>

@@ -4,42 +4,62 @@ body{
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+    font-family: Arial, sans-serif;
+    background-color: #8f4747;
+    margin: 0;
+    padding: 0;
 }
-h1{
-    color:lightcyan;
-    font-family: "press start 2p";
-    padding: 5px;
-}
-p{
-    color: lightcyan;
-    font-family: "press start 2p";
-    font-size: 25px;
-    font-weight: bold;
-    font-style: normal ;
-    border-style:outset;
-    border-width: 5px;
-    border-color: lightgreen;
+.contact-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgb(28, 170, 170);
     border-radius: 10px;
-    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.navbar ul{
-    list-style-type: none;
-   background-color: lightslategray;
+
+.contact-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+.contact-info a {
+    color: #007bff;
     text-decoration: none;
-    padding: 0px;
-    margin: 0px;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+.navbar {
+    background-color: lightslategray;
     overflow: hidden;
 }
-.navbar a{
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+}
+
+.navbar a {
     color: white;
     text-decoration: none;
     padding: 15px;
     display: block;
     text-align: center;
 }
-.navbar li{
-    float: left;
+
+.navbar li {
+    
 }
-.navbar a:hover{
+
+.navbar a:hover {
     background-color: black;
 }
